@@ -11,6 +11,12 @@ header {
     margin-bottom: 20px;
 }
 
+.hit{
+position: absolute;
+left:-25px;
+top:-20px;
+}
+
 .button {
     background-color: #36bbce;
     color: black;
@@ -99,45 +105,30 @@ footer {
     color: #850AE5;
     font-weight: bolder;
 }
-
 .socials{
-    position: fixed;
-    right: 0;
-    top: 230px;
-    background-color: #9569be;
-    border-radius: 10px;
-    width: 100px;
-    height: 200px;
-    padding:  20px;
-    border: 3px solid  rgb(168, 33, 33); 
+    height:280px;
+width:100px;
+background-color: #133aac;
+right: 0px;
+ position: fixed;
+ top: 230px;
+ padding:20px;
+ border-radius:19px;
+ border: 10px double rgb(0, 255, 213);
+}
+h1::before {  
+    content: url(https://i.ibb.co/SJqW6YF/award-8207550-1280-1.png); 
+    display: inline-block;
+    margin-right: 20px;
 }
 
-.wow-hit{
-    position: absolute;
-    top: 0;
-    right: 20px;
-    width: 80px;
-
+h1::after {
+    content: url(https://i.ibb.co/NTQsDRW/award-8207550-1280-1-2.png);
+    display: inline-block;
+    margin-left: 10px;
 }
-.wow-hit:hover{width: 120px;
-}
-h1::before{
-
-content:url(https://i.ibb.co/L9ttCJg/linux-154544-1280.png); ;
-display: inline-block;
-margin-right: 20px;
-}
-
-
-h1::after{
-
-
-content:url(https://i.ibb.co/Dwhqpk2/image-3.png); 
-display: inline-block;
-margin-left: 20px;
-}
-
-.tel::before {     content: url(https://i.ibb.co/Ykv4t7n/image-2-1.png); 
+.tel::before {
+    content: url(https://i.ibb.co/g4FJCB9/image-2.png); 
     width: 35px;
     height: 35px;
     display: inline-block;
@@ -145,9 +136,30 @@ margin-left: 20px;
 }
 
 .address::before {
-     content: url(https://i.ibb.co/kKZTP7T/image-2-3.png); 
+    content: url(https://i.ibb.co/MZMmdc5/image-2-6.png);
     width: 35px;
     height: 35px;
     display: inline-block;
     margin-right: 20px;
+}
+.button:hover { 
+    color: rgb(0, 255, 42);   
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-colorful-texture-background-ai-generative_458817-2420.jpg?w=2000); 
+    background-size: cover;
+    
+}
+.button:focus { 
+    color: rgb(0, 0, 0);   
+    font-size: 30px;
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-colorful-texture-background-ai-generative_458817-2420.jpg?w=2000); 
+    background-size: cover;
+    border: 3px double rgb(0, 238, 255);
+}
+
+.nav-link:hover{
+border-bottom: 5px solid rgb(115, 0, 255);
+color: rgb(115, 0, 255);
 }
